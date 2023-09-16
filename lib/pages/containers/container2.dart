@@ -100,7 +100,6 @@ class _Container2State extends State<Container2> {
   /// ===================MOBILE =================================///
   Widget mobileContainer2() {
     return Container(
-      height: 900,
       width: double.infinity,
       decoration: BoxDecoration(color: AppColors.primary),
       child: Column(
@@ -109,7 +108,7 @@ class _Container2State extends State<Container2> {
           Container(
             padding: const EdgeInsets.only(top: 20, bottom: 0, right: 20, left: 20),
             child: Container(
-              height: 195,
+              height: 295,
               width: double.infinity,
               decoration: const BoxDecoration(
                 image: DecorationImage(

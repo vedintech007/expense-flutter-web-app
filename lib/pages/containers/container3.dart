@@ -32,14 +32,12 @@ class _Container3State extends State<Container3> {
 
   /// ===================MOBILE =================================///
   Widget mobileContainer3() {
-    return Container();
-
-    // commonContainerDesktop(
-    //   "ALWAYS ONLINE",
-    //   "Real-time \nsupport \nwith cloud",
-    //   "Lorem ipsum is placeholder text commonly used in the \ngraphic, print, and publishing industries for previewing layouts and visual mockups. \nLorem Ipsum Generator.",
-    //   illustration1,
-    //   false,
-    // );
+    return commonContainerMobile(
+      "ALWAYS ONLINE",
+      "Real-time \nsupport \nwith cloud",
+      "Lorem ipsum is placeholder text commonly used in the \ngraphic, print, and publishing industries for previewing layouts and visual mockups. \nLorem Ipsum Generator.",
+      illustration1,
+      false,
+    );
   }
 }
