@@ -1,6 +1,7 @@
 import 'package:expense_flutter_web/pages/containers/container1.dart';
 import 'package:expense_flutter_web/pages/containers/container2.dart';
 import 'package:expense_flutter_web/pages/containers/container3.dart';
+import 'package:expense_flutter_web/pages/containers/container4.dart';
 import 'package:expense_flutter_web/utils/constants.dart';
 import 'package:expense_flutter_web/widgets/navbar.dart';
 import 'package:flutter/material.dart';
@@ -25,7 +26,7 @@ class _HomeState extends State<Home> {
             Container1(),
             Container2(),
             Container3(),
-            // Container4(),
+            Container4(),
             // Container5(),
           ],
         ),
